@@ -1,4 +1,14 @@
 
+class yahoo extends Thread {
+	public yahoo(String value){
+		super(value);
+		
+	}
+public void run(){
+	System.out.println("Yahoo::Good Morning");
+	
+}
+}
 public class MyThread {
 
 	public static void main(String[] args) {
@@ -18,3 +28,10 @@ public class MyThread {
 	}
 
 }
+
+
+	
+
+	
+
+

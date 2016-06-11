@@ -24,8 +24,8 @@ public class Rinki3 {
 		y obj=new y();
 		obj.getData1();
 		obj.getData2();
-	// obj1=new z();
-		//obj1.getData3();
+	z obj1=new z();
+    obj1.getData3();
 
 	}
 

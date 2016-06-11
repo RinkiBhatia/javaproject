@@ -1,5 +1,4 @@
 
-
 class Outerclass{
 	private int i=10;
 	class InnerClass1{
@@ -29,17 +28,17 @@ class Outerclass{
 		
 	}
 }
-public class staticclass1 {
+
+public class StaticClass1 {
 
 	public static void main(String[] args) {
-		Outerclass obj=new Outerclass();
-		obj.getOuterClassData();
-		Outerclass.InnerClass1 obj3=new Outerclass().new InnerClass1();
-		obj3.getInnerClass1Data();
-		Outerclass.InnerClass2 obj4=new Outerclass.InnerClass2();
-		obj4.getInnerClass2Data();
-			
-
-	}
+		
+				Outerclass obj=new Outerclass();
+				obj.getOuterClassData();
+				Outerclass.InnerClass1 obj3=new Outerclass().new InnerClass1();
+				obj3.getInnerClass1Data();
+				Outerclass.InnerClass2 obj4=new Outerclass.InnerClass2();
+				obj4.getInnerClass2Data();
+		}
 
 }
