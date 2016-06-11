@@ -7,12 +7,13 @@ class data{
 		
 	}
 	public void getdata(){
-		System.out.println("the value of a :: "+a+ "the value of b :: "+b);
+		System.out.println("the value of a :: "+a+ " the value of b :: "+b);
 		
 		
 	}
 }
-public class finalvariable {
+
+public class FinalVariable {
 
 	public static void main(String[] args) {
 		data obj=new data();

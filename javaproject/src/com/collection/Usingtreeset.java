@@ -1,13 +1,10 @@
 package com.collection;
 
-
-import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
-import java.util.Iterator;
 
-public class usingtreeset {
+
+public class Usingtreeset {
 
 	public static void main(String[] args) {
 		Set <String> set=new TreeSet<String>(); 
@@ -21,6 +18,8 @@ public class usingtreeset {
 			System.out.println(value);
 		}
 	
+		
+
 
 	}
 

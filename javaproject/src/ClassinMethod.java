@@ -1,5 +1,3 @@
-
-
 class Outerclass1{
 	public void getData(){
 	
@@ -33,17 +31,24 @@ class Outerclass1{
 				obj.inner1call();
 			}
 		
-		}	
+		}
+		
 }
+	 
+	
 }
 		
 	
 
-		class classinmethod {
+	
+public class ClassinMethod {
 
-public static void main(String[] args){
-Outerclass1 obj1=new Outerclass1();
-obj1.getData();
+	public static void main(String[] args) {
+		Outerclass1 obj1=new Outerclass1();
+		obj1.getData();
+        
+	
 
-}
+	}
+
 }
